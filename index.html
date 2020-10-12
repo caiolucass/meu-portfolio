@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Caio Lucas, estudante de desenvolvimento frontend</title>
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--Menu/NavBar-->
+    <div class="cabecalho">
+      <a class="logo" href="#"><h1>FrontCode</h1></a>
+      <div class="btn-menu"><i class="fa fa-bars"></i></div>
+      <nav class="menu">
+        <a class="btn-close"><i class="fa fa-close"></i></a>
+        <ul>
+          <li class="portfolio"><a href="#projetos">Meus projetos</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <!--Botao modo escuro-->
+          <li class="da">
+            <button class="dark-button"><i class="fa fa-moon-o"></i></button>
+          </li>
+          <!--Botao modo claro-->
+          <li class="da">
+            <button class="ligth-button" hidden="hidden">
+              <i class="fa fa-sun-o"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Cabeçalho/Header-->
+    <header>
+      <article id="apresentacao">
+        <h2>Oi, eu sou o</h2>
+        <span id="nome">Caio Lucas</span>
+        <span id="cargo">Estudante de S.I e desenvolvimento frontend.</span>
+        <a href="https://github.com/caiolucass" target="_blank" rel="noopener"
+          ><button>
+            GitHub &nbsp; &nbsp;<i
+              style="font-size: 30px"
+              class="fa fa-github"
+            ></i></button
+        ></a>
+      </article>
+
+      <article id="apresentacao-foto">
+        <img src="images/4957136.svg" alt="Caio Lucas foto" />
+      </article>
+    </header>
+
+    <!--Main/Conteudo Principal-->
+    <main>
+      <section id="sobre">
+        <section id="sobre-mim">
+          <article id="sobre-foto">
+            <img
+              src=""
+              width="350px"
+              height="450px"
+              alt="Caio Lucas
+            Foto"
+            />
+          </article>
+
+          <article id="sobre-texto">
+            <h3>Sobre Mim</h3>
+            <p>
+              Sou apaixonado por interfaces web e suas interações com usuário.
+              Atualmente estou estudando sobre React e cursando o 5° de sistemas
+              de informação, com intuito de me tornar um full-stack developer!
+            </p>
+            <p>
+              Tenho muito interesse em programção frontend com design UI para
+              adquirir novos conhecimentos e boas práticas.
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <!--Projetos/Projects-->
+      <section id="projetos">
+        <h2>Meus projetos</h2>
+        <article>
+          <div>
+            <h3>Belo Horizonte Tours</h3>
+            <h4>
+              <i class="fa fa-check"></i>Concluído<i class="fa fa-check"></i>
+            </h4>
+            <p>
+              Projeto Desenvolvido usando React e SASS. Uma simples página Web
+              para mostrar os principais pontos turísticos da minha cidade, Belo
+              Horizonte!
+            </p>
+            <span class="btn-projeto"
+              ><a
+                href="https://bh-tours-24099noem.vercel.app/"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="btn-live">Deploy</button>
+              </a>
+              <a
+                href="https://github.com/caiolucass/BhTours"
+                target="_blank"
+                rel="noopener"
+                ><button class="git-btn">
+                  <i class="fa fa-github"></i></button></a
+            ></span>
+          </div>
+
+          <div>
+            <h3>Ball Flix</h3>
+            <h4>
+              <i class="fa fa-warning"></i>Em desenvolvimento<i
+                class="fa fa-warning"
+              ></i>
+            </h4>
+            <p>
+              Projeto desenvolvido com o curso da Alura, com o intuito de
+              clonarmos a interface da netflix do nosso proprio jeito. Foram
+              usados React e Css!
+            </p>
+            <span class="btn-projeto"
+              ><a
+                href="https://ball-flix-ia9r4iwz4.vercel.app/"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="btn-live">Deploy</button>
+              </a>
+              <a
+                href="https://github.com/caiolucass/BallFlix"
+                target="_blank"
+                rel="noopener"
+                ><button class="git-btn"><i class="fa fa-github"></i></button
+              ></a>
+            </span>
+          </div>
+
+          <div>
+            <h3>Gerenciador de Tarefas</h3>
+            <h4>
+              <i class="fa fa-check"></i>Concluído<i class="fa fa-check"></i>
+            </h4>
+            <p>
+              Projeto desenvolvido usando React e Css, com o intuito de aprender
+              como utilizar props, children e state no React!
+            </p>
+            <span class="btn-projeto">
+              <a
+                href="https://gerenciador-de-tarefas-hvku926f4.vercel.app/"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="btn-live">Deploy</button>
+              </a>
+              <a
+                href="https://github.com/caiolucass/Gerenciador-de-tarefas"
+                target="_blank"
+                rel="noopener"
+                ><button class="git-btn"><i class="fa fa-github"></i></button
+              ></a>
+            </span>
+          </div>
+
+          <div>
+            <h3>Lista de animes</h3>
+            <h4>
+              <i class="fa fa-warning"></i>Em desenvolvimento<i
+                class="fa fa-warning"
+              ></i>
+            </h4>
+            <p>
+              Projeto desenvolvido usando React e Css, com o intuito de aprender
+              sobre como usar flexbox, grid!
+            </p>
+            <span class="btn-projeto">
+              <a
+                href="https://lista-de-animes-89z5q5nv6.vercel.app/"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="btn-live">Deploy</button>
+              </a>
+              <a
+                href="https://github.com/caiolucass/ListaDeAnimes"
+                target="_blank"
+                rel="noopener"
+                ><button class="git-btn"><i class="fa fa-github"></i></button
+              ></a>
+            </span>
+          </div>
+
+          <div>
+            <h3>Resort Rooms</h3>
+            <h4>
+              <i class="fa fa-warning"></i>Em desenvolvimento<i
+                class="fa fa-warning"
+              ></i>
+            </h4>
+            <p>
+              Projeto desenvolvido usando React e Css, com o intuito de aprender
+              sore Context, ContextApi e react Hook. Se trata de um pequeno site
+              para aluguéis de quartos, com features como filter, map!
+            </p>
+            <span class="btn-projeto">
+              <a
+                href="https://ball-flix-ia9r4iwz4.vercel.app/"
+                target="_blank"
+                rel="noopener"
+              >
+                <button class="btn-live">Deploy</button>
+              </a>
+              <a
+                href="https://github.com/caiolucass/BallFlix"
+                target="_blank"
+                rel="noopener"
+                ><button class="git-btn"><i class="fa fa-github"></i></button
+              ></a>
+            </span>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer id="contato">
+      <p>Feito de <i class="fa fa-heart"></i> por Caio Lucas.</p>
+      <article id="footer-social">
+        <a
+          href="https://www.facebook.com/caiolucas.9803/"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/caio-lucas-3886a4140/"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/caiolucass" target="_blank" rel="noopener"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/caio.lucasf/?hl=pt-br"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </article>
+    </footer>
+
+    <!--Scrips-->
+    <link rel="stylesheet" href="script/" />
+  </body>
+</html>
