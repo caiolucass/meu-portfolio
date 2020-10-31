@@ -60,11 +60,24 @@ h1 span {
   line-height: 56px;
   background-color: transparent;
 }
+.btn-close {
+  float: right;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2em;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+/*Menu*/
+.da button:hover {
+  color: #4169e1;
+}
 .menu {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: #993399;
+  background-color: #4169e1;
   top: 0;
   left: 0;
   display: none;
@@ -81,7 +94,7 @@ h1 span {
 }
 .menu li a:hover {
   text-decoration: underline;
-  color: #993399;
+  color: #4169e1;
 }
 .menu li a {
   color: #fff;
@@ -99,56 +112,9 @@ h1 span {
   font-size: 22px;
   font-weight: 600;
 }
-.btn-close {
-  float: right;
-  color: #fff;
-  cursor: pointer;
-  font-size: 2em;
-  margin-right: 10%;
-  margin-top: 2%;
-}
-body.dark {
-  background-color: #191919;
-  color: #f8f8f8;
-}
-body.dark nav,
-body.dark .cabecalho a,
-body.dark .cabecalho,
-body.dark .cabecalho .logo,
-body.dark .cabecalho i {
-  background-color: #232323;
-  color: #f8f8f8;
-  box-shadow: none;
-}
-body.dark header h2 {
-  color: #f8f8f8;
-}
-body.dark #sobre,
-body.dark #servicos {
-  background-color: #232323;
-  color: #f8f8f8;
-}
-body.dark #sobre h3,
-body.dark #sobre p {
-  color: #f8f8f8;
-}
-body.dark #projetos h2 {
-  color: #f8f8f8;
-}
-body.dark #projetos div {
-  background-color: #232323;
-  box-shadow: none;
-}
+/*Fim Menu*/
 
-body.dark #projetos div h3,
-body.dark #projetos div p {
-  color: #f8f8f8;
-}
-
-body.dark footer {
-  background-color: #232323;
-  color: #f8f8f8;
-}
+/*Cabeçalho*/
 header {
   display: flex;
   align-items: center;
@@ -180,9 +146,9 @@ header #apresentacao h2 {
   font-size: 16px;
   font-weight: 400;
 }
-header #apresentacao h2 #nome {
+header #apresentacao #nome {
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 header #apresentacao h2 #cargo {
@@ -190,7 +156,7 @@ header #apresentacao h2 #cargo {
   text-transform: uppercase;
 }
 header #apresentacao button {
-  background-color: #993399;
+  background-color: #4169e1;
   color: #fff;
   padding: 15px;
   width: 200px;
@@ -207,7 +173,7 @@ header #apresentacao button {
 }
 header #apresentacao button:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px 0 #993399 inset, 0 0 10px 4px #993399;
+  box-shadow: 0 0 10px 0 #4169e1 inset, 0 0 10px 4px #4169e1;
 }
 header #apresentacao .footer-social {
   width: 150px;
@@ -245,6 +211,9 @@ header #apresentacao-foto img {
     display: none;
   }
 }
+/*Fim Cabeçalho*/
+
+/*Main sobre*/
 main #sobre {
   padding: 50px 150px;
   background-color: #fafafa;
@@ -290,7 +259,7 @@ main #sobre #sobre-texto p {
   line-height: 30px;
 }
 main #sobre button {
-  background-color: #993399;
+  background-color: #4169e1;
   color: #fff;
   padding: 15px;
   width: 200px;
@@ -307,8 +276,11 @@ main #sobre button {
 }
 main #sobre button:hover {
   cursor: pointer;
-  background-color: #993399;
+  background-color: #4169e1;
 }
+/*Fim Main sobre*
+
+/*Main projeto*/
 main #projetos {
   padding: 70px;
 }
@@ -326,9 +298,9 @@ main #projetos article {
   text-align: left;
 }
 main #projetos article div:hover {
-  box-shadow: 5px 5px 10px#993399;
-  -webkit-box-shadow: 5px 5px 10px #993399;
-  -moz-box-shadow: 5px 5px 10px #993399;
+  box-shadow: 5px 5px 10px#4169e1;
+  -webkit-box-shadow: 5px 5px 10px #4169e1;
+  -moz-box-shadow: 5px 5px 10px #4169e1;
 }
 main #projetos article div {
   height: 250px;
@@ -344,7 +316,6 @@ main #projetos article div {
 main #projetos article div h3 {
   font-size: 1.4rem;
 }
-
 main #projetos article div p {
   padding: 10px 0px;
   font-size: 0.9rem;
@@ -356,17 +327,17 @@ main #projetos article div .btn-projeto {
 }
 main #projetos article div .btn-live:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px 0 #993399 inset, 0 0 10px 4px #993399;
+  box-shadow: 0 0 10px 0 #4169e1 inset, 0 0 10px 4px #4169e1;
 }
 main #projetos article div .git-btn:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px 0 #993399 inset, 0 0 10px 4px #993399;
+  box-shadow: 0 0 10px 0 #4169e1 inset, 0 0 10px 4px #4169e1;
 }
 main #projetos article div a {
   margin-right: 10px;
 }
 main #projetos article div .btn-live {
-  background-color: #993399;
+  background-color: #4169e1;
   padding: 10px 20px;
   color: #fff;
   border: 0;
@@ -381,21 +352,63 @@ main #projetos article div .git-btn {
   height: 35px;
   font-size: 20px;
   border-radius: 50%;
-  background-color: #993399;
+  background-color: #4169e1;
   color: #fff;
   border: 0;
   border-radius: 50%;
   cursor: pointer;
 }
 main #projetos article div h4 i {
-  color: #993399;
+  color: #4169e1;
 }
 @media screen and (max-width: 800px) {
   main #projetos {
     padding: 70px 10px;
   }
 }
+/*Fim main projeto*/
 
+/*Conhecimentos*/
+#conhecimentos {
+  width: 100%;
+  padding: 70px;
+  overflow: hidden;
+}
+#conhecimentos h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #0e2431;
+  font-size: 30px;
+}
+#conhecimentos div {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+#conhecimentos div article {
+  text-align: center;
+  height: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  box-shadow: 0px 0px 20px rgb(231, 231, 231);
+  transition: all 0.5s;
+}
+#conhecimentos div article:hover {
+  box-shadow: 5px 5px 10px#4169e1;
+  -webkit-box-shadow: 5px 5px 10px #4169e1;
+  -moz-box-shadow: 5px 5px 10px #4169e1;
+}
+.imageIcone {
+  width: 50px;
+}
+/*Fim conhecimentos*/
+
+/*Footer*/
 footer {
   padding: 50px 10px;
   background-color: #0e2431;
@@ -420,8 +433,11 @@ footer #footer-social i {
 }
 footer #footer-social i:hover {
   cursor: pointer;
-  color: #993399;
+  color: #4169e1;
 }
+/*Fim footer*/
+
+/*media query responsivo*/
 @media screen and (min-width: 1100px) {
   .btn-menu {
     display: none;

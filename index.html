@@ -11,6 +11,8 @@
     />
     <!--Css-->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/darkMode.css">
+    <link rel="stylesheet" href="css/BtnScroll.css">
   </head>
 
   <body>
@@ -26,7 +28,7 @@
           <li><a href="#contato">Contato</a></li>
           <!--Botao modo escuro-->
           <li class="da">
-            <button class="dark-button"><i class="fa fa-moon-o"></i></button>
+            <button class="dark-button" onclick="darkMode()"><i class="fa fa-moon-o"></i></button>
           </li>
           <!--Botao modo claro-->
           <li class="da">
@@ -54,7 +56,7 @@
       </article>
 
       <article id="apresentacao-foto">
-        <img src="images/4957136.svg" alt="Caio Lucas foto" />
+        <img src="" alt="Logo" />
       </article>
     </header>
 
@@ -127,8 +129,7 @@
             </h4>
             <p>
               Projeto desenvolvido com o curso da Alura, com o intuito de
-              clonarmos a interface da netflix do nosso proprio jeito. Foram
-              usados React e Css!
+              clonarmos a interface da netflix do nosso proprio jeito.
             </p>
             <span class="btn-projeto"
               ><a
@@ -231,6 +232,84 @@
           </div>
         </article>
       </section>
+      
+      <!--Conhecimentos/Skills-->
+      <section id="conhecimentos">
+        <h2 id="Skill">Conhecimentos</h2>
+        <div>
+          <article class="html5">
+            <img src="images/html5.png" alt="html5" class="imageIcone" />
+            <h2>HTML5</h2>
+            <p>1 ano de experiência</p>
+          </article>
+      
+          <article class="css">
+            <img src="images/css-3.png" alt="css-3" class="imageIcone" />
+            <h2>CSS3</h2>
+            <p>3 meses de experiência</p>
+          </article>
+      
+          <article class="sass">
+            <img src="images/sass.png" alt="sass" class="imageIcone" />
+            <h2>Sass</h2>
+            <p>3 meses de experiência</p>
+          </article>
+      
+          <article class="js">
+            <img src="images/javascript.png" alt="javascript" class="imageIcone" />
+            <h2>Java Script</h2>
+            <p>3 meses de experiência</p>
+          </article>
+      
+          <article class="bootstrap">
+            <img src="images/bootstrap.png" alt="bootstrap" class="imageIcone" />
+            <h2>Bootstrap</h2>
+            <p>3 meses de experiência</p>
+          </article>
+      
+          <article class="react">
+            <img src="images/react.png" alt="react" class="imageIcone" />
+            <h2>React JS</h2>
+            <p>3 meses de experiência</p>
+          </article>
+
+          <article class="github">
+            <img src="images/github.png" alt="github" class="imageIcone" />
+            <h2>Git</h2>
+            <p>1 ano de experiência</p>
+          </article>
+
+          <article class="gitlab">
+            <img src="images/gitlab.png" alt="gitlab" class="imageIcone" />
+            <h2>Git lab</h2>
+            <p>1 mes de experiência</p>
+          </article>
+
+          <article class="Sql">
+            <img src="images/sql.png" alt="Sql" class="imageIcone" />
+            <h2>Sql</h2>
+            <p>3 meses de experiência</p>
+          </article>
+
+          <article class="java">
+            <img src="images/java.png" alt="java" class="imageIcone" />
+            <h2>Java</h2>
+            <p>1 ano de experiência</p>
+          </article>
+
+          <article class="c#">
+            <img src="images/csharp.png" alt="Sql" class="imageIcone" />
+            <h2>C#</h2>
+            <p>2 anos de experiência</p>
+          </article>
+      </section>
+
+      <!--Botao de Scroll-->
+      <div id="scroll" class="scroll">
+      <span>
+        <a href=""><i class="fa fa-chevron-up"></i></a>
+      </span>
+    </div>
     </main>
 
     <!--Footer-->
@@ -262,6 +341,7 @@
     </footer>
 
     <!--Scrips-->
-    <link rel="stylesheet" href="script/" />
+    <link rel="stylesheet" href="script/darkMode.js"/>
+    <link rel="stylesheet" href="script/script.js" />
   </body>
 </html>

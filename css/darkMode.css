@@ -1,0 +1,42 @@
+@import url(/css/style.css);
+
+body.dark {
+  background-color: #191919;
+  color: #f8f8f8;
+}
+body.dark nav,
+body.dark .cabecalho a,
+body.dark .cabecalho,
+body.dark .cabecalho .logo,
+body.dark .cabecalho i {
+  background-color: #b66666;
+  color: #f8f8f8;
+  box-shadow: none;
+}
+body.dark header h2 {
+  color: #f8f8f8;
+}
+body.dark #sobre,
+body.dark #servicos {
+  background-color: #232323;
+  color: #f8f8f8;
+}
+body.dark #sobre h3,
+body.dark #sobre p {
+  color: #f8f8f8;
+}
+body.dark #projetos h2 {
+  color: #f8f8f8;
+}
+body.dark #projetos div {
+  background-color: #232323;
+  box-shadow: none;
+}
+body.dark #projetos div h3,
+body.dark #projetos div p {
+  color: #f8f8f8;
+}
+body.dark footer {
+  background-color: #232323;
+  color: #f8f8f8;
+}
