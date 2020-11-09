@@ -20,7 +20,7 @@ Antes se seguir o passo a passo abaixo, certifique-se de obter essas ferramentas
 [Git](https://git-scm.com). E um bom editor como o [VSCode](https://code.visualstudio.com/).
 
 ## Clone este repositório
-$ git clone https://github.com/caiolucass/meu-portfolio.git
+git clone https://github.com/caiolucass/meu-portfolio.git
 
 ## Acessar a pasta do projeto no cmd/terminal
  cd meu-portfolio.
