@@ -23,7 +23,8 @@ Antes se seguir o passo a passo abaixo, certifique-se de obter essas ferramentas
 $ git clone https://github.com/caiolucass/meu-portfolio.git
 
 ## Acessar a pasta do projeto no cmd/terminal
-$ cd meu-portfolio.
+ cd meu-portfolio.
+ 
 Abra o arquivo index.html para visualizar o site.
 
 ## Issues
